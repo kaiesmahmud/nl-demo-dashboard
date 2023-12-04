@@ -11,7 +11,7 @@
     <!-- <h1 class="text-xl md:text-2xl font-bold">Current Month Revenue</h1> -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-5">
         {#each revenueData as {title,price,css}}
-        <div class="w-full  bg-white/40 rounded-lg overflow-hidden shadow-lg">
+        <div class="w-full  bg-white/80 rounded-lg overflow-hidden shadow-lg">
             <div class={`w-full p-3 ${css}`}>
                 <h2 class="text-center text-lg md:text-xl font-bold text-white">{title}</h2>
             </div>

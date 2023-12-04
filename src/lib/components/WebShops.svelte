@@ -34,7 +34,7 @@
 
 <div class="w-full lg:w-1/2 my-2 md:my-5 p-1 md:p-3 grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-5">
     {#each webshopsData as {name,totalRedirects,icon,css,details}}
-    <div class="w-full  bg-white/40 rounded-lg overflow-hidden shadow-lg ">
+    <div class="w-full  bg-white/80 rounded-lg overflow-hidden shadow-lg ">
         <div class={`flex items-center justify-between gap-5 ${css} p-5 text-white`}>
             <p class="text-lg md:text-xl lg:text-2xl font-bold">{name}</p>
             <div class="flex items-center justify-center gap-2 font-bold">
