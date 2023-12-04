@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.shade-1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgb(157, 76, 238);
+    filter: blur(135px);
+    transform: rotate(-114.2deg);
+    z-index: -20;
+  }
+  .gradient-01 {
+    width: 200px;
+    height: 438px;
+    background: violet;
+    filter: blur(125px);
+    z-index: -20;
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: cyan;
+    filter: blur(140px);
+    border-radius: 100%;
+    z-index: -20;
+  }
+  .gradient-03 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: greenyellow;
+    filter: blur(135px);
+    transform: rotate(-114.2deg);
+    z-index: -20;
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: red;
+    filter: blur(220px);
+    z-index: -20;
+  }
