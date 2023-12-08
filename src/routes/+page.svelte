@@ -1,6 +1,7 @@
 <script>
     import AllShopsData from "../lib/components/AllShopsData.svelte";
     import AllShopsTotalOrders from "../lib/components/AllShopsTotalOrders.svelte";
+    import TotalOrders from "../lib/components/TotalOrders.svelte";
     import VisitorsAnalytics from "../lib/components/VisitorsAnalytics.svelte";
 
 </script>
@@ -18,14 +19,11 @@
             <VisitorsAnalytics/>
             <AllShopsTotalOrders/>
         </div>
-        <div class=" w-full lg:w-2/3">
+        <div class=" w-full lg:w-2/3 flex flex-col gap-3">
             <AllShopsData/>
+            <TotalOrders/>
         </div>
-
     </div>
-
-
-    
 </div>
 
 
