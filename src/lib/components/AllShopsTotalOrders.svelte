@@ -42,7 +42,7 @@
 
 {#each data as {title,totalOrder,pendingOrder,completeOrder}}
     <div class="bg-white/20 rounded p-3 text-xs md:text-sm select-none">
-        <p class="font-bold">{title}</p>
+        <p class="font-bold text-base">{title}</p>
          <div class="flex flex-col gap-2 my-2 text-xs">
             <div class=" flex flex-col gap-1">
                 <div class="flex items-center justify-between">
