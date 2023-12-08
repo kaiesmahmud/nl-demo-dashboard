@@ -32,9 +32,9 @@
     <div class="my-5 w-full overflow-hidden">
         <img class="w-full" src="/graph.png" alt="">
     </div>
-    <div class="flex w-full gap-3 items-center justify-between mt-5 pt-5 w-[90%]">
+    <div class="flex w-full gap-3 items-center justify-between mt-5 pt-5 md:w-[90%]">
         {#each webshoptsList as {name,color}}
-        <div class="flex flex-col gap-2 items-center justify-center text-xs  opacity-80">
+        <div class="flex flex-col gap-2 items-center justify-center text-xs text-center  opacity-80">
             <p>{name}</p>
             <div class={`${color} h-1 w-[80%] rounded-full`} />
         </div>
