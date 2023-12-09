@@ -10,9 +10,9 @@
 </script>
 
 
-<div class="bg-white/20 rounded p-3 md:p-5 text-xs md:text-sm select-none">
+<div class="bg-white/20 rounded p-3 md:p-5 text-xs md:text-sm select-none ">
     <div class="flex items-center justify-between">
-        <div class="bg-red-500 rounded-full shadow p-2 px-3 flex items-center gap-3 font-bold">
+        <div class="bg-red-500/90 text-white rounded-full shadow p-2 px-3 flex items-center gap-3 font-bold">
             All Webshops
             <!-- <div>
                 <Icon icon="mingcute:down-fill" />
@@ -36,7 +36,7 @@
         {#each webshoptsList as {name,color}}
         <div class="flex flex-col gap-2 items-center justify-center text-xs text-center  opacity-80">
             <p>{name}</p>
-            <div class={`${color} h-1 w-[80%] rounded-full`} />
+            <div class={`${color} h-1 w-[80%] rounded-full animate___progress`} />
         </div>
         {/each}
     </div>

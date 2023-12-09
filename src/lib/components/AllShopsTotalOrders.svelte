@@ -41,7 +41,7 @@
 </script>
 
 {#each data as {title,totalOrder,pendingOrder,completeOrder}}
-    <div class="bg-white/20 rounded p-3 text-xs md:text-sm select-none">
+    <div class="bg-white/20 rounded p-3 text-xs md:text-sm select-none ">
         <p class="font-bold text-base">{title}</p>
          <div class="flex flex-col gap-2 my-2 text-xs">
             <div class=" flex flex-col gap-1">
@@ -50,7 +50,7 @@
                     <p class="font-extrabold">{totalOrder.value}</p>
                 </div>
                 <div class="h-1 w-full bg-white/10 rounded overflow-hidden">
-                    <div class={`${totalOrder.show} h-1 `} />
+                    <div class={`${totalOrder.show} h-1 animate___progress`} />
                 </div>
             </div>
             <div class=" flex flex-col gap-1">
@@ -59,7 +59,7 @@
                     <p class="font-extrabold">{pendingOrder.value}</p>
                 </div>
                 <div class="h-1 w-full bg-white/10 rounded overflow-hidden">
-                    <div class={`${pendingOrder.show} h-1 `} />
+                    <div class={`${pendingOrder.show} h-1 animate___progress`} />
                 </div>
             </div>
             <div class=" flex flex-col gap-1">
@@ -68,7 +68,7 @@
                     <p class="font-extrabold">{completeOrder.value}</p>
                 </div>
                 <div class="h-1 w-full bg-white/10 rounded overflow-hidden">
-                    <div class={`${completeOrder.show} h-1 `} />
+                    <div class={`${completeOrder.show} h-1 animate___progress`} />
                 </div>
             </div>
          </div>

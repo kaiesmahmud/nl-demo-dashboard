@@ -22,7 +22,7 @@
                     <p class="font-extrabold text-xs">{value}</p>
                 </div>
                 <div class="h-1 w-full bg-white/10 rounded overflow-hidden">
-                    <div class={`${show} bg-graident h-1 rounded overflow-hidden`} />
+                    <div class={`${show}  h-1 rounded overflow-hidden animate___progress`} />
                 </div>
             </div>
             {/each}
