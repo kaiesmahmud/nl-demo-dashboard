@@ -16,7 +16,7 @@ body{
 }
 
 .animate___progress{
-  animation: progress 1s 1s ease-in-out  forwards ;
+  animation: progress 1s  ease-in-out  forwards ;
 }
 @keyframes progress {
   0%{
@@ -28,27 +28,20 @@ body{
   }
 }
 
-.fade__in__left{
-  animation: fadeLeft 0.7s ease-in-out both ;
+.faded{
+  animation: faded 1.2s ease-in-out forwards ;
   /* animation-direction: normal;
   animation-iteration-count: inherit;
   animation-fill-mode: both; */
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
-@keyframes fadeLeft {
+@keyframes faded {
   0%{
-    margin-right: 500px;
-    margin-top: 300px;
-    opacity: 0;
-    width: 0;
-  }
-  50%{
     opacity: 0;
   }
+  
   100%{
-    margin-right: 0;
     opacity: 1;
-    width: full;
   }
 
   

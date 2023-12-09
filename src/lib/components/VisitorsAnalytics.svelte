@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-    <div class="my-5 w-full overflow-hidden">
+    <div class="my-5 w-full overflow-hidden faded">
         <img class="w-full" src="/graph.png" alt="">
     </div>
     <div class="flex w-full gap-3 items-center justify-between mt-5 pt-5 md:w-[90%]">

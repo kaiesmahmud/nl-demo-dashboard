@@ -66,7 +66,7 @@
                 {#each salesRedirects as {title,value,img}}
                 <div class=" flex flex-col items-center justify-between gap-1">
                     <p class="font-bold text-base text-white">{title}</p>
-                    <div>
+                    <div class="faded">
                         <img src={img} alt={title}>
                     </div>
                     <p class="font-extrabold">{value}</p>
