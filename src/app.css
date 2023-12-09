@@ -14,6 +14,47 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.animate___progress{
+  animation: progress 1s 1s ease-in-out  forwards ;
+}
+@keyframes progress {
+  0%{
+    width: 0;
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.fade__in__left{
+  animation: fadeLeft 0.7s ease-in-out both ;
+  /* animation-direction: normal;
+  animation-iteration-count: inherit;
+  animation-fill-mode: both; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes fadeLeft {
+  0%{
+    margin-right: 500px;
+    margin-top: 300px;
+    opacity: 0;
+    width: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    margin-right: 0;
+    opacity: 1;
+    width: full;
+  }
+
+  
+}
+
+
 .shade-1{
     position: absolute;
     width: 400px;
