@@ -16,7 +16,7 @@ body{
 }
 
 .animate___progress{
-  animation: progress 1s 0.5s ease-in-out  forwards ;
+  animation: progress 1s 1s ease-in-out  forwards ;
 }
 @keyframes progress {
   0%{
@@ -29,7 +29,7 @@ body{
 }
 
 .faded{
-  animation: faded 1.2s ease-in-out forwards ;
+  animation: faded 3.2s ease-in-out forwards ;
   /* animation-direction: normal;
   animation-iteration-count: inherit;
   animation-fill-mode: both; */

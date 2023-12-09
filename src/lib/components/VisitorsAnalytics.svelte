@@ -46,7 +46,7 @@
         </div>
     </div>
     <div class="my-5 w-full overflow-hidden faded">
-        <img transition:fade class="w-full animate___progress" src={showGraph.url} alt="">
+        <img transition:fade class="w-full" src={showGraph.url} alt="">
     </div>
     <div class="flex w-full gap-3 items-center justify-between mt-5 pt-5 md:w-[90%]">
         {#each webshoptsList as {name,color}}
