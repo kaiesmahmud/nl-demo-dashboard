@@ -28,7 +28,7 @@
             {/each}
         </div>
         <div class="w-full md:w-1/4 flex items-center justify-center flex-col gap-5 p-5">
-            <p class="text-lg md:text-xl lg:text-3xl font-bold text-white my-2">Total Sales</p>
+            <p class="text-lg md:text-xl lg:text-3xl font-extrabold text-white my-2">Total Sales</p>
             <p class="text-lg md:text-xl lg:text-3xl font-bold my-2 text-green-500">{totalSales}</p>
         </div>
     </div>

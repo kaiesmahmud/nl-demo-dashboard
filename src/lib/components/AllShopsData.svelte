@@ -9,7 +9,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-violet-500 " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:6251 , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'6,232' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
@@ -23,7 +23,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-[#F68F30] " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:6251 , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'5,251' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
@@ -37,7 +37,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-[#04975A] " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:6251 , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'6,434' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
@@ -69,7 +69,12 @@
                     <div class="faded">
                         <img src={img} alt={title}>
                     </div>
-                    <p class="font-extrabold">{value}</p>
+                    <p class="font-extrabold">
+                        {#if title === "Total Sales"}
+                                $
+                        {/if}
+                        {value}
+                    </p>
                     
                 </div>
                 {/each}
