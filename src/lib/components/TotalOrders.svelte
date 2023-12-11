@@ -6,7 +6,7 @@
                 {title:"Pending Order", value:200 , show:"w-[25%] bg-cyan-500" },
                 {title:"Completed Order", value:1300 , show:"w-[65%] bg-cyan-500 " },
             ],
-            totalSales:"$660,252.00"
+            totalSales:"$660.252,00"
         }
     const {title,orders,totalSales} = data
 </script>
