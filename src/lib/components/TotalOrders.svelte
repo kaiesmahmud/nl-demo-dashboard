@@ -6,7 +6,7 @@
                 {title:"Pending Order", value:200 , show:"w-[25%] bg-cyan-500" },
                 {title:"Completed Order", value:1300 , show:"w-[65%] bg-cyan-500 " },
             ],
-            totalSales:"$660252"
+            totalSales:"$660,252.00"
         }
     const {title,orders,totalSales} = data
 </script>
@@ -29,7 +29,7 @@
         </div>
         <div class="w-full md:w-1/4 flex items-center justify-center flex-col gap-5 p-5">
             <p class="text-lg md:text-xl lg:text-3xl font-bold text-white my-2">Total Sales</p>
-            <p class="text-lg md:text-xl lg:text-3xl font-extrabold my-2 text-green-500">{totalSales}</p>
+            <p class="text-lg md:text-xl lg:text-3xl font-bold my-2 text-green-500">{totalSales}</p>
         </div>
     </div>
 </div>
