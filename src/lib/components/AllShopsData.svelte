@@ -9,7 +9,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-violet-500 " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:'6,232' , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'101.399,99' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
@@ -23,7 +23,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-[#F68F30] " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:'5,251' , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'206.270,99' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
@@ -37,7 +37,7 @@
                 {title:"Referral", value:10 , show:"w-[25%] bg-[#04975A] " },
             ],
             salesRedirects: [
-                {title:"Total Sales", value:'6,434' , img:"/green-circle-diagram.png"},
+                {title:"Total Sales", value:'308.980,99' , img:"/green-circle-diagram.png"},
                 {title:"Total Chats", value:5000 , img:"/orange-circle-diagram.png"},
                 {title:"Total Redirects", value:5480 , img:"/blue-circle-diagram.png"},
             ]
